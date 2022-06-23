@@ -186,17 +186,17 @@ body {
 
 .main-structure .content video {
   object-fit: cover; /* 视频覆盖整个屏幕 */
-  clip-path: ellipse(0 0 at 0 50%);
+  clip-path: ellipse(0 0 at 0 50%); /* 裁剪图片 */
   padding: 0;
   margin: 0;
 }
 
 .main-structure .content video.active {
-  clip-path: ellipse(150% 70% at 0 50%);
+  clip-path: ellipse(150% 70% at 0 50%); /* 裁剪图片 */
 }
 
 .main-structure .content .video-overlay {
-  mix-blend-mode: overlay;
+  mix-blend-mode: overlay; /* 元素与直系父元素的内容和元素的背景混合方式 */
 }
 .main-structure .content .video-overlay-island {
   background: var(--video-overlay-island-color);

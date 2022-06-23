@@ -14,7 +14,7 @@ const second_header = document.querySelector('.content .text-description h2')
 const paragraph = document.querySelector('.content .text-description p')
 const text_link = document.querySelector('.content .text-description a')
 const menu_button = document.querySelectorAll('.aside-menu a')
-
+// 激活第一个视频
 active_video[0].classList.remove(ACTIVE)
 active_video[0].classList.add(ACTIVE)
 active_video_overlay.className = 'video-overlay video-overlay-island'
